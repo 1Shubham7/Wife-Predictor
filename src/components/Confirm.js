@@ -171,8 +171,86 @@ function ConfirmationCheckbox() {
       "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
       "description":"I am afraid of dark. Can I sleep next to you." 
     },
-
-
+    21 : {
+      "id": 21,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    22 : {
+      "id": 22,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    23 : {
+      "id": 23,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    24 : {
+      "id": 24,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    25 : {
+      "id": 25,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    26 : {
+      "id": 26,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    27 : {
+      "id": 27,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    28 : {
+      "id": 28,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    29 : {
+      "id": 29,
+      "name": "Preity Zinta",
+      "address" : "India",
+      "age": 40,
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+      "description":"I am afraid of dark. Can I sleep next to you." 
+    },
+    30 : {
+  "id": 30,
+  "name": "Preity Zinta",
+  "address" : "India",
+  "age": 40,
+  "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbbeLNgb2whSmx7Dpa-Lyusf9vsguFNq7NPg&usqp=CAU",
+  "description":"I am afraid of dark. Can I sleep next to you." 
+    },
   }
   // This is database area
 
@@ -249,27 +327,29 @@ function ConfirmationCheckbox() {
       {!isChecked && (
         <div id='wifeplay' style={{backgroundColor: 'green', color:'white', fontSize: '20px', paddingTop: '120px', paddingBottom:'120px' }} >
           <div class="form-group container">
-        <label  for="exampleInputEmail1"><h4>What's your name</h4></label>
-        <input onChange={handleInputChange} className="center" value={inputValue} type="email" style={{textAlign:'center', width: '350px', height: '40px', margin: '0 auto'}} class="form-control" id="nameid" aria-describedby="emailHelp" placeholder="Enter your Name" />
+        <label  for="exampleInputEmail1"><h4>What's your name</h4></label><br />
+        <div className="name">
+        <input onChange={handleInputChange} value={inputValue} type="email" style={{textAlign:'center', width: '350px', height: '40px', margin: '0 auto'}} class="form-control" id="nameid" aria-describedby="emailHelp" placeholder="Enter your Name" />
+        </div>
       </div>
-        <input type="checkbox" onChange={checkboxon}/>
-          Whatever Wife I get I will accept her for rest of my life
+        <input className="mycheckbox" type="checkbox" onChange={checkboxon}/>
+          &nbsp; Whatever Wife I get I will accept her for rest of my life
           <p></p>
           <button disabled={!isActive} style={buttonStyle}  onClick={handleClick} type="button" class="btn letsgo btn-success ">Let's go</button>
       </div>
-      )} 
+      )}
 
         {isChecked && !buttonPlayed && ( 
         <section style={wifestyle2} >
         <h1 style={{textDecoration:'underline'}}>Ready!</h1>
-        <p style={{color:'green'}}>I {inputValue}, have agreed to accept the women about to come as your future wife. Backing away from it would mean that I am not a man.</p>
+        <p style={{color:'green'}}>I {inputValue}, have agreed to marry the women about to come as my future wife. Backing away from it would mean that I am not a man.</p>
         <div href="#" className='bestbutton' style={{ '--clr': '#6eff3e' }} onClick={playGame}><span>Who's My Wife</span><i></i></div>
         </section>)}
 
 
           {buttonPlayed && (<div className="wifeShower" style={{backgroundColor:'yellow', color:'white', paddingBottom:'30px', paddingTop:'20px'}}>
           <div style={{display:'flex',justifyContent:'center'}}>
-            <div class="card" style={{width: '18rem', border: '3px solid #386641', color:'black'}}>
+            <div class="card" style={{width: '18rem', height:'auto', border: '3px solid #386641', color:'black'}}>
               <img class="card-img-top" src={person.img} alt="Loading" style={{ border: '1px solid #386641'}} />
               <div class="card-body" style={{ backgroundColor:'#ccff33',border: '1px solid #386641'}}>
                 <h5 class="card-title" style={{textDecoration:'underline  green 5px'}} >{person.name}</h5>
@@ -282,7 +362,6 @@ function ConfirmationCheckbox() {
               </ul>
               
             </div>
-            
           </div>
 
 
@@ -293,8 +372,7 @@ function ConfirmationCheckbox() {
             options={{ text: "Check out my future wife", via: 'Wife Predictor' }}
             />
             </div>
-
-              </div>)}
+          </div>)}
 
     </>
   );

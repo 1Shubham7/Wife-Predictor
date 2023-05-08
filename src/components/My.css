@@ -85,7 +85,7 @@
     /* transform: scale(1.1); */
     transition: 400ms;
     width: 100%;
-  }
+}
   
 .news::after{
     content:'';
@@ -94,13 +94,12 @@
     width:0;
     background:green;
     transition:all .5
-  }
+}
 
 .news:hover{
     transform: scale(1.2);
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-
+}
 
 html{
     scroll-behavior: smooth;
@@ -111,5 +110,26 @@ html{
 }
 
 .letsgo:hover{
+    transform: scale(1.2);
+    transition: 0.2s;
+    color: #132a13;
+    background-color: yellowgreen;
+}
 
+.mycheckbox{
+    transform: scale(2);
+}
+
+.mycheckbox:hover{
+    transform: scale(2.7);
+    transition: 0.2s;
+}
+
+.enternamebar{
+    transform: scale(2);
+}
+
+.name:hover{
+    transform: scale(1.1);
+    transition: 0.4s;
 }
