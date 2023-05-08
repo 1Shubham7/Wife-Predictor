@@ -1,6 +1,5 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Navbar from './components/Navbar';
 import Wife from './components/Wife';
 import Footer from './components/Footer';
 import Confirm from './components/Confirm'
@@ -13,7 +12,6 @@ import {
   Link
 } from "react-router-dom";
 import About from './components/About'
-import React, { useState } from "react";
 
 
 
@@ -39,22 +37,22 @@ const refreshAboutPage = ()=>{
         <ul>
           
             
-        <a  href={window.location.pathname==='/about'? '/' : '#wifeplay'} style={{color:'green'}}>
-        <li className="news" onClick={window.location.pathname==='/about'?refreshAboutPage:null}>{window.location.pathname==='/' ? 'Play' : 'Home'}</li>
+        <a  href={window.location.pathname==='/wife-predictor/about'? '/wife-predictor' : '#wifeplay'} style={{color:'green'}}>
+        <li className="news" onClick={window.location.pathname==='/wife-predictor/about'?refreshAboutPage:null}>{window.location.pathname==='/wife-predictor' ? 'Play' : 'Home'}</li>
       </a>
           <a href="https://github.com/1Shubham7" target="_blank" rel="noreferrer"><li  className="news">GitHub</li></a>
           <a href="https://www.linkedin.com/in/shubham-singh-mahar-5a002b20b/" target="_blank" rel="noreferrer" ><li  className="news">LinkedIn</li></a>
-          <Link to="/about" onClick={refreshAboutPage}><li  className="news">About</li></Link>
+          <Link to="/wife-predictor/about" onClick={refreshAboutPage}><li  className="news">About</li></Link>
           
         </ul>
       </nav>
       
 
       <Routes>
-  <Route path="/about" element={<About />} />
+  <Route path="/wife-predictor/about" element={<About />} />
   {/* other routes here */}
 
-    <Route path='/' element={<>
+    <Route path='/wife-predictor' element={<>
     <Wife></Wife>
       <Confirm></Confirm>
       <HowCanYouHelp></HowCanYouHelp>

@@ -11,8 +11,8 @@
       margin-bottom: 20px;
     }
     img {
-      width: 200px;
-      height: 200px;
+      width: 150px;
+      height: 150px;
     }
   }
   
@@ -25,6 +25,7 @@
     }
     .circular-image {
       margin-right: 20px;
+      margin-left: 30px;
     }
   }
   
