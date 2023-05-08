@@ -10,6 +10,9 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.1",
     "react-scripts": "5.0.1",
+    "react-share": "^4.4.1",
+    "react-social-media-embed": "^2.3.5",
+    "react-twitter-embed": "^4.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {

@@ -17,6 +17,7 @@
     color: var(--clr);
     letter-spacing: 0.25em;
     box-shadow: 0 0 35px var(--clr);
+    cursor: crosshair;
 }
 
 .bestbutton:before{

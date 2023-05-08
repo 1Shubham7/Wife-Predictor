@@ -3,7 +3,7 @@ import React from 'react'
 export default function Footer() {
   return (
     <div>
-      <div  style={{background:'green', color:'white'}}>
+      <div  style={{background:'black', color:'white', paddingBottom:'20px', border:'2px solid white'}} >
         <div className="container">
           <br />
         <p className='text-center my-1' style={{color:'white'}}><a className="mx-2" href='https://www.linkedin.com/in/shubham-singh-mahar-5a002b20b/'>
@@ -16,7 +16,7 @@ export default function Footer() {
         <i class="bi bi-github"></i>
     <p>Thank you for your time. Feel free to contribute to the code base :
       </p> 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat rem perspiciatis est earum atque nobis? Expedita eaque commodi fuga consectetur voluptate recusandae nulla, qui quas consequuntur enim ex perspiciatis voluptatibus.</p>
+      <p>Images in this website have been randomly taken from the internet. If you are one of those and feel offended by the pictorisation, contact me at shubhammahar1306@gmail.com I will remove your picture.</p>
     </div>
     </div>
     </div>
