@@ -38,7 +38,7 @@ const refreshAboutPage = ()=>{
           
             
         <a  href={window.location.pathname==='/wife-predictor/about'? '/wife-predictor' : '#wifeplay'} style={{color:'green'}}>
-        <li className="news" onClick={window.location.pathname==='/wife-predictor/about'?refreshAboutPage:null}>{window.location.pathname==='/wife-predictor' ? 'Play' : 'Home'}</li>
+        <li className="navclass news " id="navbarid" onClick={window.location.pathname==='/wife-predictor/about'?refreshAboutPage:null}>{window.location.pathname==='/wife-predictor' ? 'Play' : 'Home'}</li>
       </a>
           <a href="https://github.com/1Shubham7" target="_blank" rel="noreferrer"><li  className="news">GitHub</li></a>
           <a href="https://www.linkedin.com/in/shubham-singh-mahar-5a002b20b/" target="_blank" rel="noreferrer" ><li  className="news">LinkedIn</li></a>

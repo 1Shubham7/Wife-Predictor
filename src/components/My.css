@@ -18,7 +18,7 @@
       list-style: none;
       font-weight: bold;
       font-family: monospace;
-      font-size: x-large;
+      font-size: 25px;
       color: green;
 } 
 
@@ -112,8 +112,19 @@ html{
 .letsgo:hover{
     transform: scale(1.2);
     transition: 0.2s;
-    color: #132a13;
-    background-color: yellowgreen;
+    color: yellow;
+
+    /* width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px; */
+    
 }
 
 .mycheckbox{
@@ -132,4 +143,53 @@ html{
 .name:hover{
     transform: scale(1.1);
     transition: 0.4s;
+}
+
+.ready{
+    
+        animation: colorchange 1.5s infinite;
+      }
+      
+      @keyframes colorchange {
+        0% {
+          color: green;
+        }
+        25% {
+            color: white;
+          }
+          50% {
+            color: green;
+          }
+          75% {
+            color: white;
+          }
+        100% {
+            color: green;
+          }
+      }
+      
+.navclass{
+    
+    
+    animation: colorchange 1.5s infinite;
+    
+}
+
+@keyframes colorchange {
+  0% {
+    color: green;
+  }
+  25% {
+      color: white;
+    }
+    50% {
+      color: green;
+    }
+    75% {
+      color: white;
+    }
+  100% {
+      color: green;
+    }
+
 }
