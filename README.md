@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Future Wife Predictor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Future Wife Predictor App is a fun app that predicts a user's future wife based on a database of images of women. The app is designed to be easy to use and enjoyable for users of all ages.
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+This app was created as a fun way for users to predict their future partner based on a database of images of women. The goal of the project is to create a diverse and inclusive database that accurately represents the many different types of people that exist in the world.
 
-### `npm start`
+## Technology Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This app is made with React, HTML, and CSS. We also plan to add the Django REST framework as the backend in the future. Within these frameworks, we use various libraries and tools such as Bootstrap, React Router.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Preview
+//add preview here
 
-### `npm test`
+## Setting up locally
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### prerequisites
 
-### `npm run build`
+1. You must have the npm package manager downloaded in your desktop
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+You can set up the app locally by following these basic steps :
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##### Step 1 : 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+fork the project
 
-### `npm run eject`
+##### Step 2 :
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+download the fork locally
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+##### Step 3 :
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+go inside the wife-predictor folder in the terminal and run " npm start "
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You will now have the website running locally in your desktop.
 
-## Learn More
+### If you would like to contribute to the project, please follow these steps:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Add your images to the database
+Submit a pull request with a clear description of the changes you made
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Guidelines for Contributing
 
-### Code Splitting
+##### 1. Images must not include pornograpphic content.
+##### 2. Images must not have underage girls or girls who are not comfortable sharing their photographs.
+##### 3. While It's OK to have funny Images but it should not be demining to the person. 
+##### 4. Images should be of decent quality and resolution.
+##### 5. Images should not be copyrighted or otherwise infringe on intellectual property rights.
+## Feedback and Support
+If you encounter any issues with the Future Wife Predictor App or have any feedback or suggestions, please open an issue in the Issues section of this repository. We appreciate your feedback and will respond as soon as possible.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Thank you for reading.
